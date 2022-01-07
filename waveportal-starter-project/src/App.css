@@ -1,0 +1,113 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.interactButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+.interactionTotals{
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+.Winner{
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+.Wave{
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  font-size: 200%;
+}
+.Poor{
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  font-size: 200%;
+}
+.Handshake{
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  font-size: 200%;
+}
+.Highfive{
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  font-size: 200%;
+}
+.Fistbump{
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  font-size: 200%;
+}
+
+.Bow{
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  font-size: 200%;
+}
+@keyframes spinner {
+        0% {
+          transform: translate3d(-50%, -50%, 0) rotate(0deg);
+        }
+        100% {
+          transform: translate3d(-50%, -50%, 0) rotate(360deg);
+        }
+}
+.spin {
+  animation: 1.5s linear infinite spinner;
+  animation-play-state: inherit;
+  border: solid 5px #cfd0d1;
+  border-bottom-color: #1c87c9;
+  border-radius: 50%;
+  content: "";
+  height: 40px;
+  position: absolute;
+  top: 60%; 
+  left: 62%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 40px;
+  will-change: transform;
+}
+.mining {
+  text-align: center;
+  color: rgb(97, 152, 235);
+  margin-top: 16px;
+}
+
+
+
+
